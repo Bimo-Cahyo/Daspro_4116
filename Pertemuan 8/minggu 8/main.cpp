@@ -13,7 +13,7 @@ int main()
     cout << "masukkan bulan :/n";
     cin >> bulan;
 
-    bool bulanGanjil = bulan % 2 =1;
+    bool bulanGanjil = bulan % 2 ==1;
     int hariMaximal;
 
     if (hari <=30) {
